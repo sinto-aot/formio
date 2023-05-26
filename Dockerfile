@@ -7,7 +7,7 @@
 FROM node:lts-alpine3.10
 
 # set label for image
-LABEL service="formsflow.ai"
+LABEL Name="formsflow"
 
 # set working directory
 WORKDIR /app
